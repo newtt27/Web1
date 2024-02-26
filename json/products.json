@@ -1,0 +1,317 @@
+[
+    {
+        "id": 1,
+        "name": "Apple Watch Ultra 2 LTE 49mm",
+        "price": "10.490.000",
+        "img": "img/apple1.png",
+        "des": "Đồng hồ sử dụng dây Trail Loop được thiết kế dành riêng cho các hoạt động ngoài trời, màn hình OLED với kích thước lên đến 1.92 inch - Độ phân giải 410 x 502 pixels, Chip Apple S9 SiP, Nghe gọi thông qua eSIM, chống nước 10 ATM",
+        "brand": "Apple",
+        "status": "1"
+},
+{
+        "id": 2,
+        "name": "Apple Watch SE 2022 GPS 44mm",
+        "price": "6.690.000",
+        "img": "img/apple3.jpg",
+        "des": "Màn hình OLED độ phân giải cao cho khả năng hiển thị sắc nét. Mặt kính cường lực Ion-X kết hợp khung viền hợp kim nhôm giúp đồng hồ bền bỉ hơn trước những va chạm, chip S8 SiP, cảm biến nhịp tim quang học, chống nước 5 ATM",
+        "brand": "Apple",
+        "status": "1"
+},
+{
+        "id": 3,
+        "name": "Apple Watch S8 GPS 45mm",
+        "price": "9.990.000",
+        "img": "img/apple2.jpg",
+        "des": "Được trang bị tấm nền OLED có độ phân giải 484 x 396 pixels, Hiệu suất nhanh hơn với bộ vi xử lý hoàn toàn mới - vi xử lý S8, Tính năng phát hiện va chạm, hệ thống cảm biến nhịp tim quang học thế hệ mới, tính năng theo dõi thuốc, kết hợp cùng cảm biến nhiệt độ",
+        "brand": "Apple",
+        "status": "1"
+},
+{
+        "id": 4,
+        "name": "Apple Watch Ultra 2 LTE",
+        "price": "21.990.000",
+        "img": "img/apple4.png",
+        "des": "Đạt độ bền vượt trội, phong cách năng động, OLED với kích thước 1.92 inch - 410 x 502 pixels",
+        "brand": "Apple",
+        "status": "1"
+},
+{
+        "id": 5,
+        "name": "Apple Watch SE LTE 2023 40mm",
+        "price": "7.690.000",
+        "img": "img/apple5.jpg",
+        "des": "Phong cách tối giản, màn hình chất lượng cao, Giao diện thân thiện, hiệu năng mạnh mẽ, Trợ lý sức khỏe cá nhân nhỏ gọn trên cổ tay, Nâng cao kết quả luyện tập với các chế độ thể thao, Thời lượng pin đủ dùng, chống nước tốt",
+        "brand": "Apple",
+        "status": "1"
+},
+{
+        "id": 6,
+        "name": "Samsung Galaxy Watch6 LTE 44mm",
+        "price": "7.590.000",
+        "img": "img/ss1.jpg",
+        "des": "Thiết kế thời thượng, năng động, Chăm sóc sức khỏe toàn diện, Tối ưu hóa việc luyện tập, chinh phục mọi thử thách, Hệ điều hành Wear OS mượt mà, nhiều tiện ích.",
+        "brand": "SamSung",
+        "status": "1"
+},
+{
+        "id": 7,
+        "name": "Samsung Galaxy Watch5 40 mm",
+        "price": "3.790.000",
+        "img": "img/ss2.jpg",
+        "des": "Thiết kế năng động, độ bền chuẩn quân đội Hoa Kỳ, Thoải mái thay đổi phong cách với bộ sưu tập mặt đồng hồ đa dạng, Hiệu năng mạnh mẽ đến từ chip Exynos W920, hệ điều hành One UI Watch mượt mà, Thoải mái tắm, đi mưa nhờ chỉ số chống nước 5 ATM, Thời lượng pin cải thiện, Hỗ trợ nhiều tính năng theo dõi sức khoẻ.",
+        "brand": "SamSung",
+        "status": "1"
+},
+{
+        "id": 8,
+        "name": "Samsung Galaxy Watch4 LTE Classic",
+        "price": "4.490.000",
+        "img": "img/ss3.jpg",
+        "des": "Thiết kế trẻ trung, hiện đại, Hệ điều hành Wear OS trên nền giao diện One UI Watch, Màn hình SUPER AMOLED hiển thị hình ảnh sắc nét, eSIM hiện đại - nghe gọi độc lập với điện thoại, Kho tàng mặt đồng hồ thú vị, Dễ dàng kết nối thông qua cổng bluetooth.",
+        "brand": "SamSung",
+        "status": "1"
+},
+{
+        "id": 9,
+        "name": "Samsung Galaxy Watch6 Classic",
+        "price": "9.990.000",
+        "img": "img/ss4.jpg",
+        "des": "Kiểu dáng hài hòa với mọi phong cách, Theo dõi sức khỏe và thấu hiểu giấc ngủ hơn, Hệ sinh thái liền mạch với hệ điều hành Wear OS, Tích hợp đa dạng tiện ích hỗ trợ người dùng.",
+        "brand": "SamSung",
+        "status": "1"
+},
+{
+        "id": 10,
+        "name": "Samsung Galaxy Watch5 Pro",
+        "price": "11.990.000",
+        "img": "img/ss5.jpg",
+        "des": "Diện mạo đậm chất phiêu lưu, Nội lực mạnh mẽ nhờ bộ vi xử lý và hệ điều hành, Trợ lý sức khoẻ chuyên nghiệp, Tăng niềm hứng khởi tập luyện, Chuẩn chống nước 5 ATM.",
+        "brand": "SamSung",
+        "status": "1"
+},
+{
+        "id": 11,
+        "name": "Xiaomi Watch 2 Pro",
+        "price": "6.290.000",
+        "img": "img/xm1.png",
+        "des": "Xiaomi Watch 2 Pro là thế hệ smartwatch thứ 2 sử dụng hệ điều hành Wear OS vừa được Xiaomi trình làng. Với thiết kế sang trọng, hiện đại cùng nhiều tính năng vượt trội, đây hứa hẹn sẽ là người bạn đồng hành lý tưởng cho người dùng trong mọi hoạt động.",
+        "brand": "Xiaomi",
+        "status": "1"
+},
+{
+        "id": 12,
+        "name": "Xiaomi Redmi Watch 3 Active",
+        "price": "1.290.000",
+        "img": "img/xm2.jpg",
+        "des": "Xiaomi Redmi Watch 3 Active được thiết kế theo phong cách hiện đại, cả nam lẫn nữ đeo đều đẹp. Đồng hồ thông minh cũng được Xiaomi tích hợp nhiều tính năng từ sức khỏe đến thể thao để người dùng chăm sóc cơ thể một cách khoa học và hiệu quả hơn.",
+        "brand": "Xiaomi",
+        "status": "1"
+},
+{
+        "id": 13,
+        "name": "Xiaomi Redmi Band 2",
+        "price": "540.000",
+        "img": "img/xm3.jpg",
+        "des": "Vòng đeo tay thông minh Xiaomi Redmi Band 2 một thiết bị đeo nhỏ gọn, bất kỳ ai cũng có thể sử dụng. Sản phẩm sở hữu thiết kế hiện đại, đa dạng các tính năng sức khỏe, chế độ luyện tập, khả năng kết nối ổn định, thời lượng pin kéo dài,... sẵn sàng đồng hành cùng người dùng trong mọi trường hợp.",
+        "brand": "Xiaomi",
+        "status": "1"
+},
+{
+        "id": 14,
+        "name": "Xiaomi Redmi Watch 3",
+        "price": "2.390.000",
+        "img": "img/xm4.jpg",
+        "des": "Tầm giá chưa đến 3 triệu đồng thì một chiếc smartwatch vừa có nghe gọi vừa được trang bị GPS độc lập khá hiếm thấy nhưng gần đây Xiaomi đã cho ra mắt sản phẩm đồng hồ thông minh Xiaomi Redmi Watch 3 có cả hai tính năng trên. Bên cạnh đó còn được trang bị nhiều tính năng hỗ trợ theo dõi sức khỏe và luyện tập phục vụ cho người dùng.",
+        "brand": "Xiaomi",
+        "status": "1"
+},
+{
+        "id": 15,
+        "name": "Mi Band 7 Pro",
+        "price": "1.490.000",
+        "img": "img/xm5.jpg",
+        "des": "Mi Band 7 Pro có sự thay đổi lớn về mặt thiết kế so với các thế hệ trước, đáp ứng xu thế thị trường hiện nay. Đồng thời, thiết bị này còn có những nâng cấp về định vị, hỗ trợ thể thao, theo dõi sức khỏe sẵn sàng đồng hành cùng bạn trong cuộc sống hằng ngày. ",
+        "brand": "Xiaomi",
+        "status": "1"
+},
+{
+        "id": 16,
+        "name": "Amazfit T-Rex Ultra",
+        "price": "9.990.000",
+        "img": "img/amzf1.jpg",
+        "des": "Nhà Amazfit đã trình làng chiếc smartwatch cao cấp mới nhất của hãng mang tên Amazfit T-Rex Ultra. Được chế tác từ vật liệu bền bỉ hơn cũng như trang bị nhiều tính năng, hỗ trợ thuật toán thể thao, định vị với độ chuẩn xác ngày càng cao, hứa hẹn làm hài lòng mọi người dùng đam mê phiêu lưu, khám phá.",
+        "brand": "Amazfit",
+        "status": "1"
+},
+{
+        "id": 17,
+        "name": "Amazfit GTR mini",
+        "price": "2.790.000",
+        "img": "img/amzf2.jpg",
+        "des": "Đồng hồ thông minh Amazfit GTR mini sở hữu thiết kế gọn nhẹ, thuận tiện cho các hoạt động. Bên trong thiết bị được trang bị đầy đủ các tính năng theo dõi sức khỏe cơ bản, đa dạng chế độ luyện tập và một thời lượng pin dài đáp ứng nhiều nhu cầu sử dụng của người dùng. ",
+        "brand": "Amazfit",
+        "status": "1"
+},
+{
+        "id": 18,
+        "name": "Amazfit GTR 4",
+        "price": "3.990.000",
+        "img": "img/amzf3.jpg",
+        "des": "Amazfit vừa cho ra đời sản phẩm đồng hồ thông minh Amazfit GTR 4 với thiết kế hiện đại nhưng pha lẫn một chút cổ điển. Theo dõi sức khỏe 24/7 với độ chính xác cao thông qua hệ thống cảm biến thế hệ mới, đa dạng chế độ luyện tập thể thao, GPS hiện đại và thời lượng pin siêu dài sẵn sàng đồng hành cùng người dùng ở bất kỳ đâu.",
+        "brand": "Amazfit",
+        "status": "1"
+},
+{
+        "id": 19,
+        "name": "Amazfit GTS 4 mini",
+        "price": "2.290.000",
+        "img": "img/amzf4.jpg",
+        "des": "Amazfit đã trình làng phiên bản kế nhiệm của đồng hồ Amazfit GTS 2 mini với tên gọi Amazfit GTS 4 mini mang nhiều nâng cấp đáng giá, hứa hẹn có thể làm hài lòng các tín đồ yêu thích thể thao, công nghệ với một mức giá dễ tiếp cận.",
+        "brand": "Amazfit",
+        "status": "1"
+},
+{
+        "id": 20,
+        "name": "Amazfit Cheetah Square",
+        "price": "4.990.000",
+        "img": "img/amzf5.jpg",
+        "des": "Amazfit vừa trình làng thế hệ smartwatch hoàn toàn mới của hãng mang tên Amazfit Cheetah Square 44mm. Sở hữu thiết kế mạnh mẽ, năng động nhưng vô cùng gọn nhẹ, được trang bị nhiều công nghệ tối ưu cho vận động viên chạy bộ, hệ thống GPS chuẩn xác hàng đầu cùng việc tích hợp AI hỗ trợ luyện tập, thiết bị hứa hẹn sẽ mang lại những trải nghiệm hài lòng nhất cho các tín đồ thể thao.",
+        "brand": "Amazfit",
+        "status": "1"
+},
+{
+        "id": 21,
+        "name": "Garmin Fenix 7X Pro",
+        "price": "25.990.000",
+        "img": "img/garm1.jpg",
+        "des": "Đồng hồ thông minh Garmin Fenix 7X Pro Solar Titanium sẽ là một thiết bị hỗ trợ tuyệt vời dành cho những bạn yêu thích các môn thể thao ngoài trời. Tích hợp thêm các cảm biến theo dõi sức khỏe tiên tiến, hệ thống định vị hàng đầu mang đến cho người dùng những trải nghiệm tuyệt vời.",
+        "brand": "Garmin",
+        "status": "1"
+},
+{
+        "id": 22,
+        "name": "Garmin Golf Approach S70",
+        "price": "18.290.000",
+        "img": "img/garm2.jpg",
+        "des": "Garmin Golf Approach S70 là chiếc đồng hồ thông minh hỗ trợ chơi golf chuyên nghiệp, được trang bị nhiều tính năng hữu ích giúp người dùng cải thiện các kỹ năng qua từng buổi tập. Bên cạnh đó, đồng hồ còn tích hợp nhiều cảm biến thế hệ mới giúp theo dõi sức khỏe và xác định vị trí một cách chính xác.",
+        "brand": "Garmin",
+        "status": "1"
+},
+{
+        "id": 23,
+        "name": "Garmin Venu 3S",
+        "price": "12.290.000",
+        "img": "img/garm3.jpg",
+        "des": "Garmin Venu 3S là một chiếc smartwatch được nhiều người săn đón bởi sở hữu nhiều tính năng theo dõi sức khỏe, tập luyện thể thao cùng hệ thống định vị tiên tiến. Bên cạnh những tính năng thông minh thì vẻ ngoài của chiếc đồng hồ này cũng rất thời thượng, thích hợp với nhiều phong cách của người dùng.",
+        "brand": "Garmin",
+        "status": "1"
+},
+{
+        "id": 24,
+        "name": "Garmin Forerunner 265 Music",
+        "price": "11.690.000",
+        "img": "img/garm4.jpg",
+        "des": "Chiếc smartwatch thể thao Garmin Forerunner 265 Music với nhiều tính năng hữu ích sẽ hỗ trợ người dùng cải thiện hiệu suất luyện tập, đặc biệt là bộ môn chạy bộ. Bên cạnh đó, đồng hồ cũng có những cải tiến về mặt thiết kế giúp người dùng thuận tiện hơn trong quá trình sử dụng.",
+        "brand": "Garmin",
+        "status": "1"
+},
+{
+        "id": 25,
+        "name": "Garmin Venu SQ 2 Music",
+        "price": "7.300.000",
+        "img": "img/garm5.jpg",
+        "des": "Sau thành công của thế hệ đồng hồ Garmin Venu SQ đầu tiên, vào tháng 9/2022, hãng Garmin đã cho ra mắt thế hệ tiếp theo của dòng smartwatch thể thao thanh lịch này mang tên Garmin Venu SQ 2 Music, với nhiều nâng cấp đáng giá hứa hẹn mang đến sự hài lòng hơn cho các tín đồ yêu thích thể thao.",
+        "brand": "Garmin",
+        "status": "1"
+},
+{
+        "id": 26,
+        "name": "Kidcare S88 4G",
+        "price": "2.690.000",
+        "img": "img/kidcare1.jpg",
+        "des": "Khi các bé ngày một lớn và tới tuổi đi học thì phụ huynh không thể nào đồng hành cùng bé 24/24 như trước, do đó cần phải có thiết bị để liên lạc khi cần thiết. Nếu trang bị điện thoại thì phụ huynh lại lo lắng các bé không tập trung học tập, dễ bị đánh cắp hoặc bỏ quên. Đồng hồ định vị trẻ em Kidcare S88 4G sẽ là một lựa chọn phù hợp với khả năng nghe gọi, định vị, thiết kế nhỏ gọn,...",
+        "brand": "KidCare",
+        "status": "1"
+},
+{
+        "id": 27,
+        "name": "Kidcare S8 4G",
+        "price": "2.490.000",
+        "img": "img/kidcare2.jpg",
+        "des": "Đồng hồ định vị trẻ em Kidcare S8 mang màu sắc hiện đại, năng động, phù hợp cho các bé tinh nghịch, cá tính. Mặt kính cường lực giúp đồng hồ an toàn trước những va chạm không mong muốn. Bên cạnh đó, công nghệ màn hình TFT giúp hiển thị hình ảnh rõ ràng, chân thực. Dây đeo silicone êm nhẹ, không thấm mồ hôi, cho bé cảm giác thông thoáng suốt ngày dài.",
+        "brand": "KidCare",
+        "status": "1"
+},
+{
+        "id": 28,
+        "name": "Kidcare S6 4G",
+        "price": "1.990.000",
+        "img": "img/kidcare3.jpg",
+        "des": "Đồng hồ Kidcare S6 sở hữu màn hình rộng, với kích thước màn hình 1.3 inch. Công nghệ màn hình TFT giúp bé xem được hình ảnh to và rõ ràng với chất lượng tốt. Dây đeo làm từ chất liệu silicone êm ái và nhẹ nhàng, chống thấm nước rất tốt, cho bé thoải mái khi vận động.",
+        "brand": "KidCare",
+        "status": "1"
+},
+{
+    "id": 29,
+    "name": "BeFit WatchFit",
+    "price": "590.000",
+    "img": "img/bf1.jpg",
+    "des": "BeFit WatchFit được trang bị các chức năng sức khỏe và thể thao cơ bản, đáp ứng được nhu cầu sử dụng của người dùng phổ thông. Tuy thuộc phân khúc giá rẻ nhưng chiếc đồng hồ thông minh này vẫn được trang bị tính năng nghe gọi, đảm bảo sự thuận tiện trong quá trình sử dụng.",
+    "brand": "BeFit",
+    "status": "1"
+},
+{
+    "id": 30,
+    "name": "BeFit B4",
+    "price": "440.000",
+    "img": "img/bf2.jpg",
+    "des": "BeFit B4 mang ngôn ngữ thiết kế tối giản, đem đến sự thời thượng cho người sử dụng. Đồng hồ thông minh được trang bị nhiều tính năng hỗ trợ sức khỏe và rèn luyện thể thao chỉ với mức giá chưa đến 1 triệu đồng, chắc chắn sẽ làm bạn hài lòng.",
+    "brand": "BeFit",
+    "status": "1"
+},
+{
+    "id": 31,
+    "name": "BeFit B3",
+    "price": "490.000",
+    "img": "img/bf3.jpeg",
+    "des": "Mang ngôn ngữ thiết kế năng động và thời thượng cùng việc trang bị nhiều tính năng hữu ích, đồng hồ thông minh BeFit B3 sẽ là một sản phẩm phù hợp cho người dùng muốn trải nghiệm các tính năng của một chiếc smartwatch, với một mức giá dễ tiếp cận cho thị trường Việt Nam.",
+    "brand": "BeFit",
+    "status": "1"
+},
+{
+    "id": 32,
+    "name": "BeFit Sporty 2",
+    "price": "990.000",
+    "img": "img/bf4.jpg",
+    "des": "Sau thành công của BeU Sporty 1 thì nhà BeFit đã cho ra mắt thế hệ kế nhiệm là Befit Sporty 2 với nhiều cải tiến về công nghệ giúp người dùng theo dõi sức khỏe tốt hơn, rèn luyện thể thao đúng cách. Sau đây là những đánh giá của mình về sản phẩm này sau hơn 2 tuần sử dụng, bạn có thể tham khảo để đưa ra lựa chọn phù hợp.",
+    "brand": "BeFit",
+    "status": "1"
+},
+{
+    "id": 33,
+    "name": "BeFit WatchS",
+    "price": "1.110.000",
+    "img": "img/bf5.jpg",
+    "des": "Nếu bạn đang tìm kiếm một chiếc smartwatch có ngoại hình thời thượng, đáp ứng tốt nhu cầu sử dụng cơ bản hằng ngày với một mức giá dễ chịu, BeFit WatchS 45mm sẽ là một ứng cử viên sáng giá mà bạn không thể bỏ qua.",
+    "brand": "BeFit",
+    "status": "1"
+},
+{
+    "id": 34,
+    "name": "Xiao Mi Band 8",
+    "price": "890.000",
+    "img": "img/xm6.jpg",
+    "des": "Thương hiệu “smartband quốc dân” vừa cho ra mắt thế hệ sản phẩm tiếp theo của mình mang tên Mi Band 8, với nhiều tính năng theo dõi sức khỏe, hỗ trợ luyện tập cùng vô vàn tiện ích hằng ngày, đáp ứng tốt mọi nhu cầu sử dụng cơ bản của người dùng.",
+    "brand": "Xiaomi",
+    "status": "1"
+},
+{
+    "id": 35,
+    "name": "Xiaomi Redmi Watch 2 Lite",
+    "price": "990.000",
+    "img": "img/xm7.jpg",
+    "des": "Ngay từ khi ra mắt Xiaomi Redmi Watch 2 Lite đã thu hút được rất nhiều sự chú ý của người dùng bởi mức giá rẻ, thời lượng pin dài, màn hình lớn, GPS hiện đại cùng nhiều tính năng thể thao và theo dõi sức khỏe đáp ứng tốt nhu cầu của đại bộ phận người dùng phổ thông.",
+    "brand": "Xiaomi",
+    "status": "1"
+}
+]

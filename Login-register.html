@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontgoogle -->
+    <font-google>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    </font-google>
+    <font-awsome>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </font-awsome>
+    <link rel="stylesheet" href="/css/Login-register.css">
+    <title>Trang chủ</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-1">
+                <h2>Watches.</h2>
+            <ul class="nav-bar-list">
+                <li class="shop">
+                    <div class="item"><a href="index.html">Shop</a></div>
+                </li>
+                <li onclick="scrollToElement('contact')" class="contact">
+                    <div class="item"><a href="#">Contact</a></div>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="content">
+            <img class="img"src="./img/log-res-img.jpg" style=" width: 100%; height: 100%; object-fit: cover;" alt="hinh dong ho deo tay di tiec">
+        </div>
+        <div class="logreg-box">
+            <div class="form-box login">
+                <form action="">
+                    <h2>Sign in</h2>
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-user"></i></span>
+                        <input type="text"  id="Userlog">
+                        <label>Username</label>
+                        <span class="announcement" id="user_announce"></span>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon" ><i class="fa-solid fa-eye" id="eye"></i></span>
+                        <span class="icon" ><i class="fa-solid fa-eye-slash" id="eye_slash"></i></span>  
+                        <input type="password"  id="pwlog">
+                        <label>Password</label>
+                        <span class="announcement" id="password_announce"></span>
+                    </div>
+                    <button type="submit" class="btn" id="signin_btn">Sign in</button>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Sign up</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <form action="">
+                    <h2>Sign up</h2>
+                    <!-- Email -->
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="email"  id="emailregis">
+                        <label>Email</label>
+                        <span class="announcement" id="email_announce"></span>
+                    </div>
+                    <!-- SDT -->
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                        <input type="number"  id="sdtregis">
+                        <label>SDT</label>
+                        <span class="announcement" id="sdt_announce"></span>
+                    </div>
+                    <!-- Tên đăng nhập -->
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-user"></i></span>
+                        <input type="text"  id="userregis">
+                        <label>Username</label>
+                        <span class="announcement" id="userreg_announce"></span>
+                    </div>
+                    <!-- Mật khẩu -->
+                    <div class="input-box">
+                        <span class="icon" ><i class="fa-solid fa-eye" id="eye_regis"></i></span>
+                        <span class="icon" ><i class="fa-solid fa-eye-slash" id="eye_slash_regis"></i></span>  
+                        <input type="password"  id="pwregis">
+                        <label>Password</label>
+                        <span class="announcement" id="passreg_announce"></span>
+                    </div>
+                    <button type="submit" class="btn" id="signup_btn">Sign up</button>
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="login-link">Sign in</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="contact-container">
+            <ul id="contact">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="/js/Login-register.js"></script>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Thanhtoan.css">
+     <!-- fontgoogle -->
+     <font-google>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    </font-google>
+    <font-awsome>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </font-awsome>
+    <title>Thanh toan</title>
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <div class="nav-1">
+                    <a href="index.html" id="home_page">Watches.</a>
+                <!-- Searching bar -->
+                <ul class="nav-bar-items">
+                    <li class="item"><input id="input" type="text" placeholder="Tim kiem"><i id="search" class="fa-solid fa-magnifying-glass"></i></li>
+                </ul>
+                <ul class="nav-bar-icons">
+                    <div class="User-log">
+                        <i class="fa-solid fa-user"></i>
+                        <span id="user_name"></span>
+                    </div>
+                
+                    <div class="cart">
+                        <li class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></li>
+                        <span>0</span>
+                        <div class="cart-modal">
+                        </div>
+                    </div>
+                    <div class="Mangement">
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+                </ul>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div class="container-wrapper">
+                <div class="container">
+                    <div class="products-zone">
+                        <div class="products-list">
+                            
+                        </div>
+                        <div class="page">
+                            <ul class="page-list">
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="summary">
+                        <h1><b>THANH TOÁN</b></h1>
+                        <div class="information">
+                            <form action="" method="get">
+                                <label class="field-label" for="fullname"></label>
+                                <input placeholder="Họ và tên" autocapitalize="off" spellcheck="false" class="field-input" size="30" type="text" id="fullname"  value="" autocomplete="false">
+                                <span class="announcement" id="fullname_announce"></span>
+
+                                <label class="field-label" for="email"></label>
+                                <input placeholder="Email" autocapitalize="off" spellcheck="false" class="field-input" size="30" type="text" id="email"  value="" autocomplete="false">
+                                <span class="announcement" id="email_announce"></span>
+
+                                <label class="field-label" for="phone"></label>
+                                <input placeholder="SĐT" autocapitalize="off" spellcheck="false" class="field-input" size="30" type="text" id="phone" maxlength="11" value="" autocomplete="false">
+                                <span class="announcement" id="phone_announce"></span>
+
+                                <div class="address">
+                                    <label class="field-label" for="customer_shipping_province"></label>
+                                    <select class="field-input-province" id="customer_shipping_province" name="customer_shipping_province" >
+                                        
+                                    </select>
+                                    <span class="announcement" id="customer_shipping_province_announce"></span>
+                                
+                                    <label class="field-label" for="customer_shipping_district"></label>
+                                    <select class="field-input-district" id="customer_shipping_district" name="customer_shipping_district">
+                                        
+                                    </select>
+
+                                    <label class="field-label" for="customer_shipping_ward"></label>
+                                    <select class="field-input-ward" id="customer_shipping_ward" name="customer_shipping_ward">
+                                        
+                                    </select>
+                                </div>    
+                                <label class="field-label" for="detailAddress"></label>
+                                <input placeholder="Địa chỉ cụ thể" autocapitalize="off" spellcheck="false" class="field-input" size="30" type="text" id="detailAddress" maxlength="64"  value="" autocomplete="false">
+                                <span class="announcement" id="detailAddress_announce"></span>
+                                <p class="totalPrice"></p>
+                                <div class="btn">
+                                    <input class="checkOutBtn" type="submit" name="submit" value="ĐẶT HÀNG" />
+                                </div>
+                                
+                            </form>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+<script src="/js/Thanhtoan.js"></script>
+<script src="/js/address.js"></script>
+</html>

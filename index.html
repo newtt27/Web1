@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- fontgoogle -->
+        <font-google>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+        </font-google>
+        <font-awsome>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        </font-awsome>  
+        <link rel="stylesheet" href="/css/index.css">
+        <title>Trang chủ</title>
+    </head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <div class="nav-1">
+                    <h2 id="Logo">Watches.</h2>
+                <!-- Searching bar -->
+                <ul class="nav-bar-items">
+                    <li class="item"><input id="search_input" type="text" placeholder="Tim kiem"><i id="search_icon" class="fa-solid fa-magnifying-glass"></i></li>
+                </ul>
+                <ul class="nav-bar-icons">
+                    <div class="User-log">
+                        <i class="fa-solid fa-user" id="user_icon"></i>
+                        <span id="user_name"></span>
+                        <div class="dropdown-content">
+                            <a  href="Login-register.html" id="signin">Sign in</a>
+                            <a  href="Login-register.html" id="logout_btn" style="display: none">Log out</a>
+                        </div>
+                    </div>
+                    
+                    <div class="cart">
+                        <div class="cart-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="addedToCart">0</span>
+                        </div>
+                        <div class="cart-modal">
+                            <div class="listCart">
+
+                            </div>
+                            <div class="cart-btn">
+                                <button class="close" type="submit">Đóng</button>
+                                <button class="checkout" type="submit"><a href="Thanhtoan.html">Thanh toán</a></button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gear">
+                        <i id="gear_icon" class="fa-solid fa-gear"></i>
+                    </div>
+                </ul>
+                </div>
+                <div class="nav-2">
+                    <ul class="brands">
+                        <div class="brand" onclick="filternav_2()">Xiaomi</div>
+                        <div class="brand" onclick="filternav_2()">SamSung</div>   
+                        <div class="brand" onclick="filternav_2()">Apple</div> 
+                        <div class="brand" onclick="filternav_2()">Amazfit</div>
+                        <div class="brand" onclick="filternav_2()">Garmin</div>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- imga-background -->
+        <div class="img">
+            <img src="./img/img-bg.png" alt="">
+        </div>
+        <!-- end img-background -->
+        <!-- product  -->
+        <div class="products-wrapper" id="product_wrapper">
+            <div class="Filter">
+                <i class="fa-solid fa-filter" id="filter-icon"></i>
+                <div class="Selectedandbtn" id="Selectedandbtn">
+                    <form action="">
+                        <select name="Brand" id="brandid" style="width: 80px; text-align: center;">
+                            <option value="0">Hãng</option>
+                            <option value="Apple">Apple</option>
+                            <option value="Xiaomi">Xiaomi</option>
+                            <option value="SamSung">SamSung</option>
+                            <option value="Amazfit">Amazfit</option>
+                            <option value="Garmin">Garmin</option>
+                            <option value="KidCare">KidCare</option>
+                            <option value="BeFit">BeFit</option>
+                        </select>
+                    </form>
+                    <div class="From_To">
+                        <label for="From">From</label><input type="text" id="From" >
+                        <label for="To">To</label><input type="text" id="To" >
+                    </div>
+                    <div class="filt_Search">
+                        <input type="text" placeholder="Tên sản phẩm" id="filt_search">
+                    </div>
+                    <div class="filter_btn">
+                        <button id="Timkiem">Tìm kiếm</button>
+                    </div>
+                </div>
+            </div>
+            <!-- product-list -->
+            <section class="products-container" id="products_container">
+            </section>
+            <!-- end produc-list -->
+            <div class="page">
+                <ul class="page-list">
+                </ul>
+            </div>
+        </div>
+        <!-- end-product -->
+        <!-- <footer>
+            <div class="footer-wrapper">
+                <div class="About-Us">
+                    <h3 >About Us</h3>
+                    <p>
+                        Watches là thương hiệu được thành lập vào năm 2022 <br> với tiêu chí đặt chất lượng sản phẩm lên hàng đầu.
+                    </p>
+                </div>
+                <div class="Address">
+                    <h3>Our Store</h3>
+                    <p>273 Đ. An Dương Vương, Phường 3, Quận 5 <br> Thành phố Hồ Chí Minh 700000</p>
+                </div>
+            </div>
+        </footer> -->
+    </main>
+</body>
+<script src="/js/index.js"></script>
+<script src="/js/Login-register.js"></script>
+</html>

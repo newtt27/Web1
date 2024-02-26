@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- fontgoogle -->
+     <font-google>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    </font-google>
+    <font-awsome>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </font-awsome>
+    <title>CHI TIẾT SẢN PHẨM</title>
+    <link rel="stylesheet" href="/css/productdetail.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <div class="nav-1">
+                    <h2 id="Logo"><a href="index.html">Watches.</a></h2>
+                <!-- Searching bar -->
+                <ul class="nav-bar-items">
+                    <li class="item"><input id="search_input" type="text" placeholder="Tim kiem"><i id="search_icon" class="fa-solid fa-magnifying-glass"></i></li>
+                </ul>
+                <ul class="nav-bar-icons">
+                    <div class="User-log">
+                        <i class="fa-solid fa-user" id="user_icon"></i>
+                        <span id="user_name"></span>
+                        <div class="dropdown-content">
+                            <a  href="Login-register.html" id="signin">Sign in</a>
+                            <a  href="Login-register.html" id="logout_btn" style="display: none">Log out</a>
+                        </div>
+                    </div>
+                
+                    <div class="cart showCart">
+                        <div class="cart-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="addedToCart">0</span>
+                        </div>
+                        
+                        <div class="cart-modal">
+                            <div class="listCart">
+                                
+                            </div>
+                            <div class="cart-btn">
+                                <button class="close" type="submit">Đóng</button>
+                                <button class="checkout" type="submit"><a href="Thanhtoan.html">Thanh toán</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Mangement">
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+                </ul>
+                </div>
+                <div class="nav-2">
+                    <ul class="brands">
+                        <li class="brand" >Xiaomi</li>
+                        <li class="brand" >Samsung</li>
+                        <li class="brand" >Apple</li>
+                        <li class="brand" >Amazfit</li>
+                        <li class="brand" >Garmin</li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- imga-background -->
+        <!-- end img-background -->
+        <!-- product  -->
+        <div class="container">
+            <div class="detail">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="content">
+                    <h2 class="name"></h2>
+                    <div class="price"></div>
+                    <div class="buttons">
+                        <button class="checkout">MUA NGAY</button>
+                        <button class="addtocart">
+                            Thêm vào giỏ hàng
+                            <span><i class="fa-solid fa-cart-plus"></i></span>
+                        </button>
+                    </div>
+    
+                </div>
+                <div class="des">
+                    <h2 class="des-title">MIÊU TẢ SẢN PHẨM</h2>
+                    <div class="description"></div>
+                </div>
+                
+            </div>
+            <div class="otherProducts-title">
+                NHỮNG SẢN PHẨM KHÁC
+            </div>
+            <div class="listProduct"></div>
+        </div>
+    </main>
+</body>
+    
+<script>
+    // let products = null;
+    // // get datas from file json
+    // fetch('/json/products.json')
+    //     .then(response => response.json())
+    //     .then(data => {
+    //         products = data;
+    //         showDetail();
+    // })
+    let products;
+    let listProductHTML;
+    products = localStorage.getItem("products") ? JSON.parse(localStorage.getItem("products")) : [];
+    showDetail();    
+    function showDetail(){
+        // remove datas default from HTML
+        let detail = document.querySelector('.detail');
+        
+        let productId =  new URLSearchParams(window.location.search).get('id');
+        let thisProduct = products.filter(value => value.id == productId)[0];
+        //if there is no product with id = productId => return to home page
+        if(!thisProduct){
+            window.location.href = "/";
+        }
+
+        detail.querySelector('.image img').src = thisProduct.img;
+        detail.querySelector('.name').innerText = thisProduct.name;
+        detail.querySelector('.price').innerText =thisProduct.price + " VNĐ";
+        detail.querySelector('.description').innerText = thisProduct.des;
+        detail.dataset.id = thisProduct.id;
+
+        listProductHTML = document.querySelector('.listProduct');
+
+        (products.filter(value => value.id != productId)).forEach(product => {
+            let newProduct = document.createElement('a');
+            newProduct.href = '/productdetail.html?id=' + product.id;
+            newProduct.classList.add('item');
+            newProduct.dataset.id = product.id;
+            newProduct.innerHTML = 
+            `<img src="${product.img}" alt="">
+            <p>${product.name}</p>
+            <div class="price">${product.price} VNĐ</div>`;
+            listProductHTML.appendChild(newProduct);
+        });
+    }
+    function loadUserName(){
+        let signin = document.getElementById('signin');
+        let username = localStorage.getItem("Username") ? localStorage.getItem("Username") : [];
+        document.getElementById("user_name").innerHTML = username;
+        if(username !== null){
+            signin.style.display = 'none';  
+        }
+    }
+    window.onload = loadUserName();
+    
+</script>
+<script src="/js/cart.js" ></script>
+</html>
